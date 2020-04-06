@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* VanidayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VanidayTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* VanidayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VanidayTests.m */; };
+		83210F5497744997A32153A3 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7104E48694764D12A3257006 /* AntDesign.ttf */; };
+		EC30283CA17D4961AC14566B /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E378367D4844148977DD954 /* Entypo.ttf */; };
+		F45076A8F29042988FEC5279 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BA41B2DDBD40AA9B7F6B81 /* EvilIcons.ttf */; };
+		CA11FCABFC064FBAB1FCF54B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12E994C67FC04AF4B26F5E56 /* Feather.ttf */; };
+		77D49D3790B2428AACB5DA83 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 946DDE8E835C482E8F92CE95 /* FontAwesome.ttf */; };
+		D5380E6EBBF54C5A878C542E /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3AE67F917C044BB9F83479F /* FontAwesome5_Brands.ttf */; };
+		6BA79F42EBF14157B74EA42D /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6DDFA094FC94544BAC2B259 /* FontAwesome5_Regular.ttf */; };
+		7F237E52335D42BDB33666E1 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9262531E0F37445BBDE3CD4D /* FontAwesome5_Solid.ttf */; };
+		5D3FFCAC9011457886ABB47D /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4258B748FC444092426F6E /* Fontisto.ttf */; };
+		4D779BE5C11C474C9C6F26F8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AD4C0760A02422084C3B7E8 /* Foundation.ttf */; };
+		13D6ECBD4B9E49EC9E943170 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 256D49D316B742FDB792C3E0 /* Ionicons.ttf */; };
+		7547FAB1E74546D59B765004 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FFD51813B8E463DAFC0C810 /* MaterialCommunityIcons.ttf */; };
+		8C68BC74C17F417D9A2498D9 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D85B50831DD453D90F88BCE /* MaterialIcons.ttf */; };
+		953525BF30E44AE38AFD9D35 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2522AF9B7294D86926A849D /* Octicons.ttf */; };
+		0886F644C03A4BED80A87C04 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 256E4FCBD56D4D579AC80705 /* SimpleLineIcons.ttf */; };
+		0F94D0CCE0DC413E8EEF0563 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14F6C8D5EB1C4AC793B8B9D3 /* Zocial.ttf */; };
+		99102BF9F7CB4943B38F6138 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C3D3317FE7144569EA861B4 /* Roboto-Black.ttf */; };
+		9B60319DA2F84E22B6FEC4F1 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73B76B958FE34B349C44949C /* Roboto-BlackItalic.ttf */; };
+		124FF31F6CEA4C57872E25D2 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6197A47EB294A1FA4131AAB /* Roboto-Bold.ttf */; };
+		1F21106BF9C04CF7B94DB0D4 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C6BE94A20484609A1C1A781 /* Roboto-BoldItalic.ttf */; };
+		44599947DD60422C95B3FD01 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7F59F34A51400DA017C566 /* Roboto-Italic.ttf */; };
+		CBA1527AF50C4E879E36151A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E59AC41D46F34A5DAED31C40 /* Roboto-Light.ttf */; };
+		D6BD7523D26A4E4B868C2849 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 054576F8E6164298B4C7D679 /* Roboto-LightItalic.ttf */; };
+		73DD710BCA454AD7BC9C355B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ABB5135E914457C946853FE /* Roboto-Medium.ttf */; };
+		82C631A349EF4815B960098B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9405BE6C80848BB8FF3B20B /* Roboto-MediumItalic.ttf */; };
+		72A02127CA1448F5BD55AF9E /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54D6A8EF72C1446790EB9F12 /* Roboto-Regular.ttf */; };
+		583F2D56F874433D968A52E5 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64A2C770E75B45E3B9A1E2B2 /* Roboto-Thin.ttf */; };
+		260D1D16AF85477E9837C609 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4705C72CBE1641B2B38D0C94 /* Roboto-ThinItalic.ttf */; };
+		D2E0375ACAC34ACEAC623888 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7EE728AC6134D59AF109BC2 /* Roboto_medium.ttf */; };
+		604C05AC73C94A1782590E76 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE99B680034A078666E7E5 /* Roboto.ttf */; };
+		9198FBE93AC849B89DB6533F /* ComicNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18E61BCF9CF2417BAA0C60A5 /* ComicNeue-Bold.ttf */; };
+		3EAB791305A1440BB01AD737 /* ComicNeue-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3738948E08C4D2FB5FB5E95 /* ComicNeue-BoldItalic.ttf */; };
+		056DFD0E2D804C929804F80D /* ComicNeue-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB47E9494D034C6AA73BE94A /* ComicNeue-Italic.ttf */; };
+		821EC5893C2D4FC08BE572E2 /* ComicNeue-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 140AF65CEDD643B78564EE39 /* ComicNeue-Light.ttf */; };
+		656AE87256714201AEE05550 /* ComicNeue-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92809024DE3B4303AEC702BA /* ComicNeue-LightItalic.ttf */; };
+		48F9270E1616406A8E8A045D /* ComicNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F25B1F9BEB1D403E96DA8717 /* ComicNeue-Regular.ttf */; };
+		DAC1E0F3972C4A9791E82AE8 /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40B1C66893D246B089F17365 /* Raleway-Black.ttf */; };
+		157AF04DE1104BE999F4030B /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F0AFB9FD815E4607B9991268 /* Raleway-BlackItalic.ttf */; };
+		48B885F9E484404ABECC1381 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41E43235EC22444CA12FA09E /* Raleway-Bold.ttf */; };
+		978A7721B895497483567C4B /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0523C562E2534791A9BD5906 /* Raleway-BoldItalic.ttf */; };
+		BF4D61C3CF484BD992EFD0EA /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6ED4AF3F6DE4BFAA5487053 /* Raleway-ExtraBold.ttf */; };
+		25A48171022F432AA7B0C72E /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95C7B9CA8AD04C8C93790E24 /* Raleway-ExtraBoldItalic.ttf */; };
+		8DBC347F3D6D4FDEB9072B25 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8AAA333133D4F6D92D0899F /* Raleway-ExtraLight.ttf */; };
+		1AE2BC23B42E45C3B82D8418 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5EF0458DD6A4B8BA9D80F90 /* Raleway-ExtraLightItalic.ttf */; };
+		8414C4BEBDE24CC99FD1867D /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92FC99DB4C994CCE98B6C34A /* Raleway-Italic.ttf */; };
+		3301197B4EBC4E8E861DA249 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2717CF228D43432284FD7DC5 /* Raleway-Light.ttf */; };
+		F714492D80284054BAC763D5 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB783C7F0EC49BDA283419E /* Raleway-LightItalic.ttf */; };
+		F7926D2C480A428E9AD1C937 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D726891D51D4AA3AE2EC18F /* Raleway-Medium.ttf */; };
+		6DDE67682B784ACD83C8F5F9 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2C2A040AE9E4429B33ACF61 /* Raleway-MediumItalic.ttf */; };
+		844A2408F8CE4768BFEA249A /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC652889D6C54FA886FB9BA4 /* Raleway-Regular.ttf */; };
+		D363B9783976494CA9D330B6 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713E4CE3320D416AB573036E /* Raleway-SemiBold.ttf */; };
+		1B5E43C0E230499198136DFA /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A22BAB38F9C4F99AB34A348 /* Raleway-SemiBoldItalic.ttf */; };
+		8C5E0857B5FF4AC5B785959A /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F910CE1CFF6E4FDCB7A57295 /* Raleway-Thin.ttf */; };
+		F0C812B1B3864E5890C6DCF1 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B22A0A51C36405E889D0140 /* Raleway-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Vaniday;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Vaniday-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* VanidayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanidayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* VanidayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VanidayTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Vaniday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaniday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Vaniday/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Vaniday/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Vaniday/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Vaniday/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Vaniday/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* Vaniday-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vaniday-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* Vaniday-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vaniday-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		7104E48694764D12A3257006 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E378367D4844148977DD954 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90BA41B2DDBD40AA9B7F6B81 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12E994C67FC04AF4B26F5E56 /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		946DDE8E835C482E8F92CE95 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3AE67F917C044BB9F83479F /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6DDFA094FC94544BAC2B259 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9262531E0F37445BBDE3CD4D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0F4258B748FC444092426F6E /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9AD4C0760A02422084C3B7E8 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		256D49D316B742FDB792C3E0 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3FFD51813B8E463DAFC0C810 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6D85B50831DD453D90F88BCE /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2522AF9B7294D86926A849D /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		256E4FCBD56D4D579AC80705 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14F6C8D5EB1C4AC793B8B9D3 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C3D3317FE7144569EA861B4 /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73B76B958FE34B349C44949C /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A6197A47EB294A1FA4131AAB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../app/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C6BE94A20484609A1C1A781 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F7F59F34A51400DA017C566 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E59AC41D46F34A5DAED31C40 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		054576F8E6164298B4C7D679 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5ABB5135E914457C946853FE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../app/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B9405BE6C80848BB8FF3B20B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../app/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54D6A8EF72C1446790EB9F12 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		64A2C770E75B45E3B9A1E2B2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../app/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4705C72CBE1641B2B38D0C94 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7EE728AC6134D59AF109BC2 /* Roboto_medium.ttf */ = {isa = PBXFileReference; name = "Roboto_medium.ttf"; path = "../app/assets/fonts/Roboto_medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DCE99B680034A078666E7E5 /* Roboto.ttf */ = {isa = PBXFileReference; name = "Roboto.ttf"; path = "../app/assets/fonts/Roboto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		18E61BCF9CF2417BAA0C60A5 /* ComicNeue-Bold.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Bold.ttf"; path = "../app/assets/fonts/ComicNeue-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3738948E08C4D2FB5FB5E95 /* ComicNeue-BoldItalic.ttf */ = {isa = PBXFileReference; name = "ComicNeue-BoldItalic.ttf"; path = "../app/assets/fonts/ComicNeue-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB47E9494D034C6AA73BE94A /* ComicNeue-Italic.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Italic.ttf"; path = "../app/assets/fonts/ComicNeue-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		140AF65CEDD643B78564EE39 /* ComicNeue-Light.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Light.ttf"; path = "../app/assets/fonts/ComicNeue-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92809024DE3B4303AEC702BA /* ComicNeue-LightItalic.ttf */ = {isa = PBXFileReference; name = "ComicNeue-LightItalic.ttf"; path = "../app/assets/fonts/ComicNeue-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F25B1F9BEB1D403E96DA8717 /* ComicNeue-Regular.ttf */ = {isa = PBXFileReference; name = "ComicNeue-Regular.ttf"; path = "../app/assets/fonts/ComicNeue-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		40B1C66893D246B089F17365 /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../app/assets/fonts/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F0AFB9FD815E4607B9991268 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../app/assets/fonts/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		41E43235EC22444CA12FA09E /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../app/assets/fonts/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0523C562E2534791A9BD5906 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../app/assets/fonts/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6ED4AF3F6DE4BFAA5487053 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../app/assets/fonts/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95C7B9CA8AD04C8C93790E24 /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F8AAA333133D4F6D92D0899F /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../app/assets/fonts/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F5EF0458DD6A4B8BA9D80F90 /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92FC99DB4C994CCE98B6C34A /* Raleway-Italic.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic.ttf"; path = "../app/assets/fonts/Raleway-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2717CF228D43432284FD7DC5 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../app/assets/fonts/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CEB783C7F0EC49BDA283419E /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../app/assets/fonts/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D726891D51D4AA3AE2EC18F /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../app/assets/fonts/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B2C2A040AE9E4429B33ACF61 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../app/assets/fonts/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC652889D6C54FA886FB9BA4 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../app/assets/fonts/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		713E4CE3320D416AB573036E /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../app/assets/fonts/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A22BAB38F9C4F99AB34A348 /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F910CE1CFF6E4FDCB7A57295 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../app/assets/fonts/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B22A0A51C36405E889D0140 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../app/assets/fonts/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* VanidayTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* VanidayTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = VanidayTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Vaniday */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Vaniday;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Vaniday */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* VanidayTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				FDA9E794F4F240F2BC3735A1 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Vaniday.app */,
+				00E356EE1AD99517003FC87E /* VanidayTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* Vaniday-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* Vaniday-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA9E794F4F240F2BC3735A1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				7104E48694764D12A3257006 /* AntDesign.ttf */,
+				3E378367D4844148977DD954 /* Entypo.ttf */,
+				90BA41B2DDBD40AA9B7F6B81 /* EvilIcons.ttf */,
+				12E994C67FC04AF4B26F5E56 /* Feather.ttf */,
+				946DDE8E835C482E8F92CE95 /* FontAwesome.ttf */,
+				B3AE67F917C044BB9F83479F /* FontAwesome5_Brands.ttf */,
+				F6DDFA094FC94544BAC2B259 /* FontAwesome5_Regular.ttf */,
+				9262531E0F37445BBDE3CD4D /* FontAwesome5_Solid.ttf */,
+				0F4258B748FC444092426F6E /* Fontisto.ttf */,
+				9AD4C0760A02422084C3B7E8 /* Foundation.ttf */,
+				256D49D316B742FDB792C3E0 /* Ionicons.ttf */,
+				3FFD51813B8E463DAFC0C810 /* MaterialCommunityIcons.ttf */,
+				6D85B50831DD453D90F88BCE /* MaterialIcons.ttf */,
+				A2522AF9B7294D86926A849D /* Octicons.ttf */,
+				256E4FCBD56D4D579AC80705 /* SimpleLineIcons.ttf */,
+				14F6C8D5EB1C4AC793B8B9D3 /* Zocial.ttf */,
+				7C3D3317FE7144569EA861B4 /* Roboto-Black.ttf */,
+				73B76B958FE34B349C44949C /* Roboto-BlackItalic.ttf */,
+				A6197A47EB294A1FA4131AAB /* Roboto-Bold.ttf */,
+				0C6BE94A20484609A1C1A781 /* Roboto-BoldItalic.ttf */,
+				3F7F59F34A51400DA017C566 /* Roboto-Italic.ttf */,
+				E59AC41D46F34A5DAED31C40 /* Roboto-Light.ttf */,
+				054576F8E6164298B4C7D679 /* Roboto-LightItalic.ttf */,
+				5ABB5135E914457C946853FE /* Roboto-Medium.ttf */,
+				B9405BE6C80848BB8FF3B20B /* Roboto-MediumItalic.ttf */,
+				54D6A8EF72C1446790EB9F12 /* Roboto-Regular.ttf */,
+				64A2C770E75B45E3B9A1E2B2 /* Roboto-Thin.ttf */,
+				4705C72CBE1641B2B38D0C94 /* Roboto-ThinItalic.ttf */,
+				E7EE728AC6134D59AF109BC2 /* Roboto_medium.ttf */,
+				9DCE99B680034A078666E7E5 /* Roboto.ttf */,
+				18E61BCF9CF2417BAA0C60A5 /* ComicNeue-Bold.ttf */,
+				B3738948E08C4D2FB5FB5E95 /* ComicNeue-BoldItalic.ttf */,
+				FB47E9494D034C6AA73BE94A /* ComicNeue-Italic.ttf */,
+				140AF65CEDD643B78564EE39 /* ComicNeue-Light.ttf */,
+				92809024DE3B4303AEC702BA /* ComicNeue-LightItalic.ttf */,
+				F25B1F9BEB1D403E96DA8717 /* ComicNeue-Regular.ttf */,
+				40B1C66893D246B089F17365 /* Raleway-Black.ttf */,
+				F0AFB9FD815E4607B9991268 /* Raleway-BlackItalic.ttf */,
+				41E43235EC22444CA12FA09E /* Raleway-Bold.ttf */,
+				0523C562E2534791A9BD5906 /* Raleway-BoldItalic.ttf */,
+				E6ED4AF3F6DE4BFAA5487053 /* Raleway-ExtraBold.ttf */,
+				95C7B9CA8AD04C8C93790E24 /* Raleway-ExtraBoldItalic.ttf */,
+				F8AAA333133D4F6D92D0899F /* Raleway-ExtraLight.ttf */,
+				F5EF0458DD6A4B8BA9D80F90 /* Raleway-ExtraLightItalic.ttf */,
+				92FC99DB4C994CCE98B6C34A /* Raleway-Italic.ttf */,
+				2717CF228D43432284FD7DC5 /* Raleway-Light.ttf */,
+				CEB783C7F0EC49BDA283419E /* Raleway-LightItalic.ttf */,
+				5D726891D51D4AA3AE2EC18F /* Raleway-Medium.ttf */,
+				B2C2A040AE9E4429B33ACF61 /* Raleway-MediumItalic.ttf */,
+				CC652889D6C54FA886FB9BA4 /* Raleway-Regular.ttf */,
+				713E4CE3320D416AB573036E /* Raleway-SemiBold.ttf */,
+				8A22BAB38F9C4F99AB34A348 /* Raleway-SemiBoldItalic.ttf */,
+				F910CE1CFF6E4FDCB7A57295 /* Raleway-Thin.ttf */,
+				3B22A0A51C36405E889D0140 /* Raleway-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* VanidayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VanidayTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = VanidayTests;
+			productName = VanidayTests;
+			productReference = 00E356EE1AD99517003FC87E /* VanidayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Vaniday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Vaniday" */;
+			buildPhases = (
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vaniday;
+			productName = "Vaniday";
+			productReference = 13B07F961A680F5B00A75B9A /* Vaniday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* Vaniday-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vaniday-tvOS" */;
+			buildPhases = (
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vaniday-tvOS";
+			productName = "Vaniday-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* Vaniday-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* Vaniday-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vaniday-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "Vaniday-tvOSTests";
+			productName = "Vaniday-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* Vaniday-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Vaniday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Vaniday */,
+				00E356ED1AD99517003FC87E /* VanidayTests */,
+				2D02E47A1E0B4A5D006451C7 /* Vaniday-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* Vaniday-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				83210F5497744997A32153A3 /* AntDesign.ttf in Resources */,
+				EC30283CA17D4961AC14566B /* Entypo.ttf in Resources */,
+				F45076A8F29042988FEC5279 /* EvilIcons.ttf in Resources */,
+				CA11FCABFC064FBAB1FCF54B /* Feather.ttf in Resources */,
+				77D49D3790B2428AACB5DA83 /* FontAwesome.ttf in Resources */,
+				D5380E6EBBF54C5A878C542E /* FontAwesome5_Brands.ttf in Resources */,
+				6BA79F42EBF14157B74EA42D /* FontAwesome5_Regular.ttf in Resources */,
+				7F237E52335D42BDB33666E1 /* FontAwesome5_Solid.ttf in Resources */,
+				5D3FFCAC9011457886ABB47D /* Fontisto.ttf in Resources */,
+				4D779BE5C11C474C9C6F26F8 /* Foundation.ttf in Resources */,
+				13D6ECBD4B9E49EC9E943170 /* Ionicons.ttf in Resources */,
+				7547FAB1E74546D59B765004 /* MaterialCommunityIcons.ttf in Resources */,
+				8C68BC74C17F417D9A2498D9 /* MaterialIcons.ttf in Resources */,
+				953525BF30E44AE38AFD9D35 /* Octicons.ttf in Resources */,
+				0886F644C03A4BED80A87C04 /* SimpleLineIcons.ttf in Resources */,
+				0F94D0CCE0DC413E8EEF0563 /* Zocial.ttf in Resources */,
+				99102BF9F7CB4943B38F6138 /* Roboto-Black.ttf in Resources */,
+				9B60319DA2F84E22B6FEC4F1 /* Roboto-BlackItalic.ttf in Resources */,
+				124FF31F6CEA4C57872E25D2 /* Roboto-Bold.ttf in Resources */,
+				1F21106BF9C04CF7B94DB0D4 /* Roboto-BoldItalic.ttf in Resources */,
+				44599947DD60422C95B3FD01 /* Roboto-Italic.ttf in Resources */,
+				CBA1527AF50C4E879E36151A /* Roboto-Light.ttf in Resources */,
+				D6BD7523D26A4E4B868C2849 /* Roboto-LightItalic.ttf in Resources */,
+				73DD710BCA454AD7BC9C355B /* Roboto-Medium.ttf in Resources */,
+				82C631A349EF4815B960098B /* Roboto-MediumItalic.ttf in Resources */,
+				72A02127CA1448F5BD55AF9E /* Roboto-Regular.ttf in Resources */,
+				583F2D56F874433D968A52E5 /* Roboto-Thin.ttf in Resources */,
+				260D1D16AF85477E9837C609 /* Roboto-ThinItalic.ttf in Resources */,
+				D2E0375ACAC34ACEAC623888 /* Roboto_medium.ttf in Resources */,
+				604C05AC73C94A1782590E76 /* Roboto.ttf in Resources */,
+				9198FBE93AC849B89DB6533F /* ComicNeue-Bold.ttf in Resources */,
+				3EAB791305A1440BB01AD737 /* ComicNeue-BoldItalic.ttf in Resources */,
+				056DFD0E2D804C929804F80D /* ComicNeue-Italic.ttf in Resources */,
+				821EC5893C2D4FC08BE572E2 /* ComicNeue-Light.ttf in Resources */,
+				656AE87256714201AEE05550 /* ComicNeue-LightItalic.ttf in Resources */,
+				48F9270E1616406A8E8A045D /* ComicNeue-Regular.ttf in Resources */,
+				DAC1E0F3972C4A9791E82AE8 /* Raleway-Black.ttf in Resources */,
+				157AF04DE1104BE999F4030B /* Raleway-BlackItalic.ttf in Resources */,
+				48B885F9E484404ABECC1381 /* Raleway-Bold.ttf in Resources */,
+				978A7721B895497483567C4B /* Raleway-BoldItalic.ttf in Resources */,
+				BF4D61C3CF484BD992EFD0EA /* Raleway-ExtraBold.ttf in Resources */,
+				25A48171022F432AA7B0C72E /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				8DBC347F3D6D4FDEB9072B25 /* Raleway-ExtraLight.ttf in Resources */,
+				1AE2BC23B42E45C3B82D8418 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				8414C4BEBDE24CC99FD1867D /* Raleway-Italic.ttf in Resources */,
+				3301197B4EBC4E8E861DA249 /* Raleway-Light.ttf in Resources */,
+				F714492D80284054BAC763D5 /* Raleway-LightItalic.ttf in Resources */,
+				F7926D2C480A428E9AD1C937 /* Raleway-Medium.ttf in Resources */,
+				6DDE67682B784ACD83C8F5F9 /* Raleway-MediumItalic.ttf in Resources */,
+				844A2408F8CE4768BFEA249A /* Raleway-Regular.ttf in Resources */,
+				D363B9783976494CA9D330B6 /* Raleway-SemiBold.ttf in Resources */,
+				1B5E43C0E230499198136DFA /* Raleway-SemiBoldItalic.ttf in Resources */,
+				8C5E0857B5FF4AC5B785959A /* Raleway-Thin.ttf in Resources */,
+				F0C812B1B3864E5890C6DCF1 /* Raleway-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* VanidayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* VanidayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Vaniday */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* Vaniday-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Vaniday;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VanidayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaniday.app/Vaniday";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = VanidayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaniday.app/Vaniday";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				INFOPLIST_FILE = Vaniday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Vaniday;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Vaniday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Vaniday;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Vaniday-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vaniday-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Vaniday-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vaniday-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Vaniday-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vaniday-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaniday-tvOS.app/Vaniday-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Vaniday-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Vaniday-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaniday-tvOS.app/Vaniday-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VanidayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Vaniday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vaniday-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Vaniday-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Vaniday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

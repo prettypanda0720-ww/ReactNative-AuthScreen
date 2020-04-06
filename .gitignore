@@ -1,0 +1,97 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/
+android/app/src/main/assets/fonts/ComicNeue-Bold.ttf
+android/app/src/main/assets/fonts/ComicNeue-BoldItalic.ttf
+android/app/src/main/assets/fonts/ComicNeue-Italic.ttf
+android/app/src/main/assets/fonts/ComicNeue-Light.ttf
+android/app/src/main/assets/fonts/ComicNeue-LightItalic.ttf
+android/app/src/main/assets/fonts/ComicNeue-Regular.ttf
+android/app/src/main/assets/fonts/Roboto-Black.ttf
+android/app/src/main/assets/fonts/Roboto-BlackItalic.ttf
+android/app/src/main/assets/fonts/Roboto-Bold.ttf
+android/app/src/main/assets/fonts/Roboto-BoldItalic.ttf
+android/app/src/main/assets/fonts/Roboto-Italic.ttf
+android/app/src/main/assets/fonts/Roboto-Light.ttf
+android/app/src/main/assets/fonts/Roboto-LightItalic.ttf
+android/app/src/main/assets/fonts/Roboto-Medium.ttf
+android/app/src/main/assets/fonts/Roboto-MediumItalic.ttf
+android/app/src/main/assets/fonts/Roboto-Regular.ttf
+android/app/src/main/assets/fonts/Roboto-Thin.ttf
+android/app/src/main/assets/fonts/Roboto-ThinItalic.ttf
+app/assets/fonts/ComicNeue-Bold.ttf
+app/assets/fonts/ComicNeue-BoldItalic.ttf
+app/assets/fonts/ComicNeue-Italic.ttf
+app/assets/fonts/ComicNeue-Light.ttf
+app/assets/fonts/ComicNeue-LightItalic.ttf
+app/assets/fonts/ComicNeue-Regular.ttf
+app/assets/fonts/Roboto-Black.ttf
+app/assets/fonts/Roboto-BlackItalic.ttf
+app/assets/fonts/Roboto-Bold.ttf
+app/assets/fonts/Roboto-BoldItalic.ttf
+app/assets/fonts/Roboto-Italic.ttf
+app/assets/fonts/Roboto-Light.ttf
+app/assets/fonts/Roboto-LightItalic.ttf
+app/assets/fonts/Roboto-Medium.ttf
+app/assets/fonts/Roboto-MediumItalic.ttf
+app/assets/fonts/Roboto-Regular.ttf
+app/assets/fonts/Roboto-Thin.ttf
+app/assets/fonts/Roboto-ThinItalic.ttf
+app/assets/fonts/Roboto.ttf
+app/assets/fonts/Roboto_medium.ttf
