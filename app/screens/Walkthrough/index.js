@@ -85,10 +85,6 @@ class Walkthrough extends Component {
       inputRange: [0, 1],
       outputRange: [DEVICE_WIDTH - MARGIN, MARGIN],
     });
-    const changeScale = this.growAnimated.interpolate({
-      inputRange: [0, 1],
-      outputRange: [1, MARGIN],
-    });
 
     const {navigation} = this.props;
     return (
@@ -109,7 +105,6 @@ class Walkthrough extends Component {
                 <Text style={styles.textLogin}>LOGIN</Text>
               )}
             </TouchableOpacity>
-            <Animated.View style={[styles.circle, {transform: [{scale: changeScale}]}]}></Animated.View>
           </Animated.View>
         </View>
         

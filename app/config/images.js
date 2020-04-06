@@ -146,4 +146,5 @@ export const Images = {
   loading: require('@assets/images/loading.gif'),
   eye_black: require('@assets/images/eye_black.png'),
   logo_reverse: require('@assets/images/logo-reverse.png'),
+  icons_create: require('@assets/images/icons-create.png'),
 };

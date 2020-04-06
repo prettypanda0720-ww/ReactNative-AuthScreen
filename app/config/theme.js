@@ -15,9 +15,9 @@ export const BaseStyle = StyleSheet.create({
     marginHorizontal: 20,
   },
   textInput: {
-    height: 46,
+    height: 40,
     backgroundColor: BaseColor.fieldColor,
-    borderRadius: 5,
+    borderRadius: 10,
     padding: 10,
     width: '100%',
     justifyContent: 'center',

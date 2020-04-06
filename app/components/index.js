@@ -18,6 +18,7 @@ import ButtonSubmit from './ButtonSubmit';
 import Logo from './Logo';
 import Form from './Form';
 import UserInput from './UserInput';
+import ProfileDescription from './ProfileDescription';
 
 export {
   Image,
@@ -41,4 +42,5 @@ export {
   Logo,
   KeyboardAvoidingView,
   UserInput,
+  ProfileDescription
 };

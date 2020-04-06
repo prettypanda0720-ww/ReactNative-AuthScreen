@@ -28,7 +28,7 @@ export default class Header extends Component {
     } = this.props;
 
     return (
-      <View style={[styles.contain, style]}>
+      <View style={[styles.contain, style, {borderBottomWidth: 1, borderBottomColor: 'black'}]}>
         <View style={{ flex: 1 }}>
           <TouchableOpacity
             style={[styles.contentLeft, styleLeft]}
