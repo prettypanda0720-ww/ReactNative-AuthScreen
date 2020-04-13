@@ -17,6 +17,8 @@ import Walkthrough from '@screens/Walkthrough';
 import SignUp from '@screens/SignUp';
 import SignIn from '@screens/SignIn';
 import Schedule from '@screens/Schedule';
+import CreateClient from '@screens/CreateClient';
+import ClientProfile from '@screens/ClientProfile';
 
 // Transition for navigation by screen name
 const handleCustomTransition = ({scenes}) => {
@@ -117,6 +119,12 @@ const StackNavigator = createStackNavigator(
     },
     Schedule: {
       screen: Schedule,
+    },
+    CreateClient: {
+      screen: CreateClient,
+    },
+    ClientProfile: {
+      screen: ClientProfile,
     },
   },
   {

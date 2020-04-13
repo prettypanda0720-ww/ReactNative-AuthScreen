@@ -22,7 +22,7 @@ class Clients extends Component {
           image: Images.profile2,
           subName: "CEO Founder",
           name: "Kondo Ieyasu",
-          screen: "Profile1",
+          screen: "ClientProfile",
           description:
             "riverstar1992@gmail.com"
         },
@@ -30,7 +30,7 @@ class Clients extends Component {
           image: Images.profile3,
           subName: "Sale Manager",
           name: "Yeray Rosales",
-          screen: "Profile2",
+          screen: "ClientProfile",
           description:
             "riverstar1992@gmail.com"
         },
@@ -38,7 +38,7 @@ class Clients extends Component {
           image: Images.profile5,
           subName: "Product Manager",
           name: "Alf Huncoot",
-          screen: "Profile3",
+          screen: "ClientProfile",
           description:
             "riverstar1992@gmail.com"
         },
@@ -46,7 +46,7 @@ class Clients extends Component {
           image: Images.profile4,
           subName: "Designer UI/UX",
           name: "Chioke Okonkwo",
-          screen: "Profile4",
+          screen: "ClientProfile",
           description:
             "riverstar1992@gmail.com"
         }
@@ -148,9 +148,9 @@ class Clients extends Component {
         })}
         <View style={styles.floatingBtn}>
           <TouchableOpacity
-            onPress={this._onPress}
+            onPress={() => navigation.navigate('CreateClient')}
             style={styles.button}
-            activeOpacity={1}>
+            activeOpacity={0.8}>
             <Image style={styles.image} source={Images.icons_create} />
           </TouchableOpacity>
         </View>

@@ -1,4 +1,5 @@
 import Text from './Text';
+import SignupTextInput from './SignupTextInput';
 import Button from './Button';
 import Tag from './Tag';
 import Icon from './Icon';
@@ -15,14 +16,17 @@ import CalendarProvider from './expandableCalendar/calendarProvider';
 import WeekCalendar from './expandableCalendar/weekCalendar';
 import AgendaList from './expandableCalendar/agendaList';
 import ButtonSubmit from './ButtonSubmit';
-import Logo from './Logo';
+import Logo from './Logo';  
 import Form from './Form';
 import UserInput from './UserInput';
 import ProfileDescription from './ProfileDescription';
+import PhoneInput from './PhoneInput';
+import MyDatePicker from './DatePicker';
 
 export {
   Image,
   Text,
+  SignupTextInput,
   Button,
   Tag,
   Icon,
@@ -42,5 +46,7 @@ export {
   Logo,
   KeyboardAvoidingView,
   UserInput,
-  ProfileDescription
+  ProfileDescription,
+  PhoneInput,
+  MyDatePicker,
 };

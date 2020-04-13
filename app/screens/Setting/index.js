@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import {View, StyleSheet} from 'react-native';
+import {Text} from '@components'
 
 const Setting = props => {
   return (
     <View style={styles.container}>
-      <View style={styles.redbox} />
-      <View style={styles.bluebox} />
-      <View style={styles.blackbox} />
+      <View style={styles.container}>
+        <Text style={{fontSize: 40, fontWeight: 'bold'}}>Setting</Text>
+      </View>
     </View>
   );
 };
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'grey',
+    backgroundColor: 'white',
     height: 600,
   },
   redbox: {

@@ -54,7 +54,7 @@ export default StyleSheet.create({
     backgroundColor: '#F035E0',
   },
   image: {
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 40,
   },
 });
